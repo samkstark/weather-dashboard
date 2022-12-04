@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: lightblue;
+
+
+}
+
+#weather {
+    display: none;
+}
+
+.navbar {
+    height: 100px;
+}
+
+#cityDisplay, li {
+    color: grey !important;
+}
+
+#searchResults, #cityDisplay, .card {
+    background-color: #5a6c73!important;
+}
+
+#searchResults {
+    height: 100vh;
+}
+
+#forecast, .card {
+    border: 1px solid white !important;
+}
+
+#searchHist li {
+background-color: lightgray;
+color: navy;
+}
+
+p {
+color: beige;
+}

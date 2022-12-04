@@ -10,11 +10,11 @@ document.getElementById("searchBtn").addEventListener("click", function () {
     fetch(
         `https://api.openweathermap.org/data/2.5/forecast?q=${city.value}&units=metric&appid=46e193ff5a178d02cba4c8f7f600438b`
       )
-        .then(function (data) {
+        .then(function(data) {
           console.log(data);
           return data.json();
         })
-        .then(function (weatherData) {
+        .then(function(weatherData) {
           console.log(weatherData.list[0].main.temp);
         });
 });
