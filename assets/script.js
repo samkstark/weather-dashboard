@@ -17,4 +17,16 @@ document.getElementById("searchBtn").addEventListener("click", function () {
         .then(function(weatherData) {
           console.log(weatherData.list[0].main.temp);
         });
+        $("#weather").css("display", "block");
+        $(#)
 });
+
+var iconCode = weatherData.weather[0].icon;
+var iconURL = `https://openweathermap.org/img/w/${iconCode}.png`;
+http://openweathermap.org/img/wn/10d@2x.png
+
+var currentCity = $(`
+<h2 id="currentCity">
+    ${weatherData.name} ${today} <img src="${iconURL}" alt="${weatherData.weather[0].description}" />
+</h2>
+`)
